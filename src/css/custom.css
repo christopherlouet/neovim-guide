@@ -1,0 +1,21 @@
+:root {
+  --ifm-font-family-base: "Inter", system-ui, sans-serif;
+  --ifm-code-font-size: 95%;
+}
+
+[data-theme='dark'] {
+  --ifm-background-color: #0f1117;
+  --ifm-font-color-base: #c0caf5;
+  --ifm-link-color: #7aa2f7;
+  --ifm-navbar-background-color: #0f1117;
+  --ifm-footer-background-color: #0f1117;
+}
+
+pre {
+  background-color: #1a1b26 !important;
+  border-radius: 8px;
+}
+
+code {
+  color: #9ece6a;
+}
