@@ -57,6 +57,8 @@ const config = {
             label: "📘 Télécharger le PDF",
             href: "/pdf/guide-neovim.pdf",
             position: "right",
+            target: "_blank",
+            rel: "noopener noreferrer",
           }
         ],
       },
