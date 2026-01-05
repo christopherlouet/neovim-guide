@@ -32,13 +32,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      # Dépendances PDF (Pandoc + XeLaTeX)
-      - name: Install Pandoc & LaTeX
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended
-
-      - name: Build PDF + Docusaurus
+      - name: Build Docusaurus site
         run: npm run build
 
       - name: Upload Pages artifact
