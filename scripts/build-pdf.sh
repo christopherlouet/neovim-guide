@@ -2,24 +2,26 @@
 
 set -euo pipefail
 
+# ----------------------------------------
+# Configuration
+# ----------------------------------------
 PROJECT_ROOT="$(pwd)"
 TMP_DIR="/tmp/neovim-guide-pdf"
 OUT_PDF="guide-neovim.pdf"
 
 STATIC_PDF_DIR="$PROJECT_ROOT/static/pdf"
-BUILD_PDF_DIR="$PROJECT_ROOT/build/neovim-guide/pdf"
 
+# ----------------------------------------
+# Préparation
+# ----------------------------------------
 echo "📦 Préparation…"
 rm -rf "$TMP_DIR"
 mkdir -p "$TMP_DIR"
-
-echo "📁 Création des dossiers de destination…"
 mkdir -p "$STATIC_PDF_DIR"
-mkdir -p "$BUILD_PDF_DIR"
 
-# --------------------------------------------------
-# ORDRE PÉDAGOGIQUE STRICT (NE PAS MODIFIER À LA VOLÉE)
-# --------------------------------------------------
+# ----------------------------------------
+# Ordre pédagogique strict des chapitres
+# ----------------------------------------
 FILES=(
   docs/index.md
 
@@ -44,6 +46,9 @@ FILES=(
   docs/annexes/cheatsheet.md
 )
 
+# ----------------------------------------
+# Copie + nettoyage Markdown (XeLaTeX safe)
+# ----------------------------------------
 echo "🧹 Copie et nettoyage des fichiers Markdown…"
 
 for src in "${FILES[@]}"; do
@@ -52,7 +57,7 @@ for src in "${FILES[@]}"; do
 
   cp "$src" "$dest"
 
-  # Nettoyage caractères problématiques pour XeLaTeX / PDF
+  # Suppression caractères problématiques (emojis, symboles)
   sed -i \
     -e 's/👉/->/g' \
     -e 's/➡️/->/g' \
@@ -64,7 +69,10 @@ for src in "${FILES[@]}"; do
     "$dest"
 done
 
-echo "📘 Génération du PDF (ordre strict garanti)…"
+# ----------------------------------------
+# Génération du PDF
+# ----------------------------------------
+echo "📘 Génération du PDF (ordre pédagogique garanti)…"
 
 pandoc \
   "$TMP_DIR/index.md" \
@@ -91,14 +99,12 @@ pandoc \
   -V mainfont="DejaVu Serif" \
   -V monofont="DejaVu Sans Mono"
 
-echo "🚚 Copie du PDF vers les emplacements attendus…"
+# ----------------------------------------
+# Copie finale vers Docusaurus (statique)
+# ----------------------------------------
+echo "🚚 Copie du PDF vers static/pdf…"
 
-# Pour Docusaurus (fichiers statiques)
 cp "$TMP_DIR/$OUT_PDF" "$STATIC_PDF_DIR/$OUT_PDF"
 
-# Pour le link checker Docusaurus (build output)
-cp "$TMP_DIR/$OUT_PDF" "$BUILD_PDF_DIR/$OUT_PDF"
-
-echo "✅ PDF généré et copié avec succès"
-echo "   - static/pdf/$OUT_PDF"
-echo "   - build/neovim-guide/pdf/$OUT_PDF"
+echo "✅ PDF prêt et publiable"
+echo "   → static/pdf/$OUT_PDF"
