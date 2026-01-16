@@ -10,6 +10,7 @@ module.exports = {
             type: "category",
             label: "Fondations",
             items: [
+                "fondations/quick-start",
                 "fondations/mental-model",
             ],
         },
@@ -20,6 +21,8 @@ module.exports = {
             items: [
                 "productivite/navigation",
                 "productivite/edition",
+                "productivite/completion",
+                "productivite/which-key",
             ],
         },
 
@@ -27,6 +30,8 @@ module.exports = {
             type: "category",
             label: "Écosystème Neovim",
             items: [
+                "ecosysteme/telescope",
+                "ecosysteme/treesitter",
                 "ecosysteme/lsp",
                 "ecosysteme/qualite",
             ],
@@ -36,10 +41,26 @@ module.exports = {
             type: "category",
             label: "Workflow",
             items: [
-                "workflow/diagnostics",
                 "workflow/git",
+                "workflow/debug",
+                "workflow/testing",
+                "workflow/diagnostics",
                 "workflow/terminal",
                 "workflow/sessions",
+                "workflow/troubleshooting",
+            ],
+        },
+
+        {
+            type: "category",
+            label: "Outils",
+            items: [
+                "outils/navigation-avancee",
+                "outils/github",
+                "outils/http-rest",
+                "outils/database",
+                "outils/devops",
+                "outils/ai-assistance",
             ],
         },
 
@@ -47,9 +68,9 @@ module.exports = {
             type: "category",
             label: "Personnalisation",
             items: [
-                "personnalisation/react-workflow",
                 "personnalisation/config",
                 "personnalisation/customisation",
+                "personnalisation/react-workflow",
                 "personnalisation/autonomie",
             ],
         },
@@ -59,6 +80,7 @@ module.exports = {
             label: "Annexes",
             items: [
                 "annexes/cheatsheet",
+                "annexes/glossaire",
             ],
         },
     ],
