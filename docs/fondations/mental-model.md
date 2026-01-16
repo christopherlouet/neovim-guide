@@ -1,5 +1,6 @@
 ---
 title: Mental model Vim
+sidebar_position: 2
 ---
 
 # Chapitre 2 — Le mental model Vim (sans douleur)
