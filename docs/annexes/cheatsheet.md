@@ -72,9 +72,43 @@ Ces annexes sont conçues pour :
 | IntelliJ | Action | Neovim |
 |----------|--------|--------|
 | `Shift+F6` | Renommer | `<leader>rn` |
+| — | Renommer avec preview | `<leader>rN` |
 | `Alt+Entrée` | Code actions | `<leader>ca` |
 | `Ctrl+Q` | Documentation | `K` |
-| `Ctrl+P` | Signature | `Ctrl+k` |
+| — | Signature (normal) | `gK` |
+| — | Signature (insert) | `<C-S-k>` |
+
+---
+
+## Complétion
+
+| Action | Neovim |
+|--------|--------|
+| Déclencher complétion | `<C-Space>` |
+| Confirmer | `<CR>` |
+| Item suivant | `<Tab>` ou `<C-n>` |
+| Item précédent | `<S-Tab>` ou `<C-p>` |
+| Scroll docs bas | `<C-d>` |
+| Scroll docs haut | `<C-u>` |
+| Fermer menu | `<C-e>` |
+
+---
+
+## Édition avancée
+
+| Action | Neovim |
+|--------|--------|
+| Commenter ligne | `gcc` |
+| Commenter sélection | `gc` (visual) |
+| Surround add | `ys{motion}{char}` |
+| Surround delete | `ds{char}` |
+| Surround change | `cs{old}{new}` |
+
+**Exemples Surround :**
+- `ysiw"` → Entourer mot de guillemets
+- `ds"` → Supprimer guillemets
+- `cs"'` → Changer `"` en `'`
+- `yss)` → Entourer ligne de parenthèses
 
 ---
 
@@ -209,6 +243,9 @@ Ces annexes sont conçues pour :
 | Run HTTP request | `<leader>rr` |
 | Preview request | `<leader>rp` |
 | Rerun last request | `<leader>rl` |
+| Kulala run | `<leader>kr` |
+| Kulala inspect | `<leader>ki` |
+| Kulala toggle view | `<leader>kt` |
 
 ---
 
