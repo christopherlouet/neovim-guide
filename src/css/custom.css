@@ -1,21 +1,231 @@
+/* Tokyo Night inspired theme for Neovim Guide */
+
 :root {
   --ifm-font-family-base: "Inter", system-ui, sans-serif;
   --ifm-code-font-size: 95%;
+  --ifm-heading-font-weight: 600;
 }
 
+/* Dark mode - Tokyo Night colors */
 [data-theme='dark'] {
-  --ifm-background-color: #0f1117;
-  --ifm-font-color-base: #c0caf5;
+  --ifm-background-color: #1a1b26;
+  --ifm-background-surface-color: #16161e;
+  --ifm-font-color-base: #a9b1d6;
+  --ifm-font-color-secondary: #565f89;
   --ifm-link-color: #7aa2f7;
-  --ifm-navbar-background-color: #0f1117;
-  --ifm-footer-background-color: #0f1117;
+  --ifm-link-hover-color: #89b4fa;
+  --ifm-navbar-background-color: #16161e;
+  --ifm-footer-background-color: #16161e;
+  --ifm-color-primary: #7aa2f7;
+  --ifm-color-primary-dark: #5d8af2;
+  --ifm-color-primary-darker: #4f7fee;
+  --ifm-color-primary-darkest: #2463e8;
+  --ifm-color-primary-light: #97b4fc;
+  --ifm-color-primary-lighter: #a5bffd;
+  --ifm-color-primary-lightest: #d0e0ff;
+  --ifm-toc-border-color: #292e42;
+  --ifm-hr-border-color: #292e42;
 }
 
-pre {
+/* Light mode */
+[data-theme='light'] {
+  --ifm-color-primary: #2e59d9;
+  --ifm-color-primary-dark: #2950c4;
+  --ifm-color-primary-darker: #274cb9;
+  --ifm-color-primary-darkest: #203e98;
+  --ifm-color-primary-light: #3e68de;
+  --ifm-color-primary-lighter: #4670e0;
+  --ifm-color-primary-lightest: #6d8fe7;
+}
+
+/* Code blocks - Tokyo Night */
+[data-theme='dark'] pre {
   background-color: #1a1b26 !important;
+  border: 1px solid #292e42;
   border-radius: 8px;
 }
 
-code {
+[data-theme='dark'] code {
   color: #9ece6a;
+  background-color: #292e42;
+  border-radius: 4px;
+  padding: 0.1rem 0.3rem;
+}
+
+[data-theme='dark'] pre code {
+  background-color: transparent;
+  padding: 0;
+}
+
+/* Admonitions styling */
+[data-theme='dark'] .alert--info {
+  --ifm-alert-background-color: rgba(122, 162, 247, 0.1);
+  --ifm-alert-border-color: #7aa2f7;
+}
+
+[data-theme='dark'] .alert--warning {
+  --ifm-alert-background-color: rgba(224, 175, 104, 0.1);
+  --ifm-alert-border-color: #e0af68;
+}
+
+[data-theme='dark'] .alert--success {
+  --ifm-alert-background-color: rgba(158, 206, 106, 0.1);
+  --ifm-alert-border-color: #9ece6a;
+}
+
+[data-theme='dark'] .alert--danger {
+  --ifm-alert-background-color: rgba(247, 118, 142, 0.1);
+  --ifm-alert-border-color: #f7768e;
+}
+
+/* Tables */
+[data-theme='dark'] table {
+  border-collapse: collapse;
+}
+
+[data-theme='dark'] table th {
+  background-color: #292e42;
+}
+
+[data-theme='dark'] table tr:nth-child(even) {
+  background-color: rgba(41, 46, 66, 0.5);
+}
+
+[data-theme='dark'] table td,
+[data-theme='dark'] table th {
+  border-color: #292e42;
+}
+
+/* Sidebar */
+[data-theme='dark'] .menu__link--active {
+  color: #7aa2f7;
+}
+
+[data-theme='dark'] .menu__link:hover {
+  color: #7aa2f7;
+  background-color: rgba(122, 162, 247, 0.1);
+}
+
+/* Search */
+[data-theme='dark'] .DocSearch-Button {
+  background-color: #292e42;
+  border: 1px solid #3b4261;
+}
+
+[data-theme='dark'] .DocSearch-Button:hover {
+  background-color: #3b4261;
+}
+
+/* Hero section improvements */
+.hero {
+  padding: 4rem 0;
+}
+
+.hero__title {
+  font-size: 3rem;
+}
+
+.hero__subtitle {
+  font-size: 1.5rem;
+  opacity: 0.8;
+}
+
+/* Badges for difficulty levels */
+.badge {
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-right: 0.5rem;
+}
+
+.badge--beginner {
+  background-color: rgba(158, 206, 106, 0.2);
+  color: #9ece6a;
+  border: 1px solid #9ece6a;
+}
+
+.badge--intermediate {
+  background-color: rgba(224, 175, 104, 0.2);
+  color: #e0af68;
+  border: 1px solid #e0af68;
+}
+
+.badge--advanced {
+  background-color: rgba(247, 118, 142, 0.2);
+  color: #f7768e;
+  border: 1px solid #f7768e;
+}
+
+/* Keyboard shortcuts styling */
+kbd {
+  background-color: #292e42;
+  border: 1px solid #3b4261;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  color: #a9b1d6;
+  display: inline-block;
+  font-family: monospace;
+  font-size: 0.85em;
+  padding: 0.1rem 0.4rem;
+  vertical-align: middle;
+}
+
+/* Checklist styling */
+[data-theme='dark'] input[type="checkbox"] {
+  accent-color: #7aa2f7;
+}
+
+/* Scrollbar styling */
+[data-theme='dark'] ::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+[data-theme='dark'] ::-webkit-scrollbar-track {
+  background: #1a1b26;
+}
+
+[data-theme='dark'] ::-webkit-scrollbar-thumb {
+  background: #3b4261;
+  border-radius: 4px;
+}
+
+[data-theme='dark'] ::-webkit-scrollbar-thumb:hover {
+  background: #565f89;
+}
+
+/* Card-like sections */
+.card {
+  background-color: #16161e;
+  border: 1px solid #292e42;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1rem 0;
+}
+
+.card:hover {
+  border-color: #3b4261;
+}
+
+/* Footer links */
+[data-theme='dark'] .footer__link-item:hover {
+  color: #7aa2f7;
+}
+
+/* Print styles */
+@media print {
+  .navbar,
+  .footer,
+  .pagination-nav,
+  .theme-doc-toc-mobile,
+  .theme-doc-sidebar-container {
+    display: none !important;
+  }
+
+  .markdown {
+    max-width: 100% !important;
+  }
 }
