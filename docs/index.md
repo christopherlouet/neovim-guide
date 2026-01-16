@@ -4,16 +4,39 @@ slug: /
 ---
 
 # Neovim comme IDE
+
 ## Guide complet de migration depuis IntelliJ
 
-Temps recommandé : 1 heure par jour
-Public : développeur utilisant déjà Vim, débutant Neovim IDE
+Bienvenue dans le guide de migration IntelliJ → Neovim. Ce guide t'accompagne pas à pas pour transformer Neovim en un IDE aussi puissant qu'IntelliJ, mais plus rapide et entièrement maîtrisé.
 
 :::info Configuration utilisée
-Ce guide est conçu pour accompagner la configuration **[neovim-intellij-ide](https://github.com/christopherlouet/neovim-intellij-ide)**, une configuration Neovim prête à l'emploi optimisée pour les développeurs venant d'IntelliJ.
-
-Tous les raccourcis et fonctionnalités documentés correspondent à cette configuration.
+Ce guide est conçu pour la configuration **[neovim-intellij-ide](https://github.com/christopherlouet/neovim-intellij-ide)** — une configuration Neovim prête à l'emploi, optimisée pour les développeurs venant d'IntelliJ.
 :::
+
+---
+
+## Accès rapide
+
+| Je veux... | Aller à |
+|------------|---------|
+| **Démarrer en 5 minutes** | [Quick Start](/docs/fondations/quick-start) |
+| **Comprendre les modes Vim** | [Mental Model](/docs/fondations/mental-model) |
+| **Naviguer dans un projet** | [Navigation](/docs/productivite/navigation) |
+| **Chercher des fichiers/texte** | [Telescope](/docs/ecosysteme/telescope) |
+| **Voir tous les raccourcis** | [Cheatsheet](/docs/annexes/cheatsheet) |
+| **Comprendre un terme** | [Glossaire](/docs/annexes/glossaire) |
+
+---
+
+## Parcours recommandé
+
+**Temps estimé :** 1 heure par jour pendant 2 semaines
+
+1. **Fondations** — Modes, mental model, premiers pas
+2. **Productivité** — Navigation, édition, complétion
+3. **Écosystème** — Telescope, Treesitter, LSP
+4. **Workflow** — Git, debug, tests, terminal
+5. **Personnalisation** — Configuration avancée
 
 ---
 
@@ -24,29 +47,29 @@ Tous les raccourcis et fonctionnalités documentés correspondent à cette confi
 
 À la fin de ce chapitre, tu dois :
 
-- comprendre ce qu’est réellement un IDE
-- comprendre ce que Neovim fait différemment d’IntelliJ
+- comprendre ce qu'est réellement un IDE
+- comprendre ce que Neovim fait différemment d'IntelliJ
 - savoir pourquoi Neovim peut le remplacer
 - connaître les limites réelles
-- adopter le bon mental model avant d’aller plus loin
+- adopter le bon mental model avant d'aller plus loin
 
 ---
 
-## 1.1 — IntelliJ : ce que tu utilises vraiment (sans t’en rendre compte)
+## 1.1 — IntelliJ : ce que tu utilises vraiment (sans t'en rendre compte)
 
-Quand tu utilises IntelliJ, tu n’utilises pas simplement un éditeur de texte.
+Quand tu utilises IntelliJ, tu n'utilises pas simplement un éditeur de texte.
 
 Tu utilises en réalité :
 
-- un moteur d’analyse de code
-- une base d’index globale du projet
+- un moteur d'analyse de code
+- une base d'index globale du projet
 - des actions contextuelles intelligentes
 - un moteur de refactorisation
-- un orchestrateur d’outils (Git, tests, debug, Docker…)
+- un orchestrateur d'outils (Git, tests, debug, Docker…)
 
-L’éditeur n’est qu’une petite partie de l’ensemble.
+L'éditeur n'est qu'une petite partie de l'ensemble.
 
-### Ce qu’IntelliJ fait très bien
+### Ce qu'IntelliJ fait très bien
 - indexation profonde du code
 - refactorings fiables
 - navigation précise
@@ -64,21 +87,21 @@ Tu es productif, mais dépendant.
 
 ---
 
-## 1.2 — Mythe à déconstruire : “Neovim est juste un éditeur”
+## 1.2 — Mythe à déconstruire : "Neovim est juste un éditeur"
 
-C’est faux.
+C'est faux.
 
 Neovim moderne est une **plateforme IDE composable**.
 
 Il fournit :
 
-- un moteur d’édition extrêmement performant
+- un moteur d'édition extrêmement performant
 - une API Lua complète
 - une intégration native du LSP
 - une architecture modulaire
 - un chargement paresseux des fonctionnalités
 
-Neovim ne fait pas moins.  
+Neovim ne fait pas moins.
 Il fait différemment.
 
 ---
@@ -88,7 +111,7 @@ Il fait différemment.
 ### IntelliJ
 - tout est intégré
 - tout est lié
-- beaucoup d’abstraction
+- beaucoup d'abstraction
 - peu de visibilité interne
 
 ### Neovim
@@ -113,7 +136,7 @@ Avec Neovim, tu sais ce qui se passe.
 
 Les développeurs qui passent à Neovim ne le font pas par snobisme.
 
-Ils le font parce qu’ils veulent :
+Ils le font parce qu'ils veulent :
 
 - comprendre leurs outils
 - les maîtriser
@@ -130,7 +153,7 @@ Cas typiques :
 
 ---
 
-## 1.5 — Ce que Neovim fait aussi bien qu’IntelliJ
+## 1.5 — Ce que Neovim fait aussi bien qu'IntelliJ
 
 - navigation
 - rename
@@ -153,13 +176,13 @@ Fonctionnellement, Neovim peut remplacer IntelliJ dans la majorité des cas mode
 - automatisation naturelle
 - contrôle fin du workflow
 
-Neovim devient ton IDE, pas “un IDE”.
+Neovim devient ton IDE, pas "un IDE".
 
 ---
 
 ## 1.7 — Limites honnêtes de Neovim
 
-Neovim n’est pas magique.
+Neovim n'est pas magique.
 
 IntelliJ reste supérieur pour :
 
@@ -168,7 +191,7 @@ IntelliJ reste supérieur pour :
 - analyse statique propriétaire
 - onboarding de profils très juniors
 
-Pour JS / TS / React / backend / DevOps :  
+Pour JS / TS / React / backend / DevOps :
 Neovim est parfaitement adapté.
 
 ---
@@ -195,11 +218,11 @@ Bonne approche :
 
 IntelliJ :
 
-> “Je cherche une action dans l’interface”
+> "Je cherche une action dans l'interface"
 
 Neovim :
 
-> “Je compose une action avec le clavier”
+> "Je compose une action avec le clavier"
 
 Les actions sont des verbes, pas des boutons.
 
@@ -209,8 +232,8 @@ Les actions sont des verbes, pas des boutons.
 
 Questions à te poser :
 
-- qu’est-ce que j’utilise vraiment dans IntelliJ ?
-- qu’est-ce que je n’utilise jamais ?
+- qu'est-ce que j'utilise vraiment dans IntelliJ ?
+- qu'est-ce que je n'utilise jamais ?
 - quelles actions je fais 100 fois par jour ?
 
 Tu verras que 80 % de ton usage repose sur :
@@ -226,5 +249,5 @@ Tu verras que 80 % de ton usage repose sur :
 
 - [ ] Je comprends le modèle composable
 - [ ] Je ne cherche plus à imiter IntelliJ
-- [ ] J’accepte la phase d’apprentissage
+- [ ] J'accepte la phase d'apprentissage
 - [ ] Je garde IntelliJ comme filet temporaire

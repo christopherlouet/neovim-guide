@@ -46,6 +46,10 @@ const config = {
       },
       navbar: {
         title: 'Guide Neovim',
+        logo: {
+          alt: 'Guide Neovim Logo',
+          src: 'img/logo.svg',
+        },
         items: [
           {
             type: "doc",
@@ -87,7 +91,9 @@ const config = {
         indexDocs: true,
         indexBlog: false,
         indexPages: false,
-        language: ["en"],
+        language: ["fr", "en"],
+        style: undefined,
+        maxSearchResults: 10,
       },
     ],
   ],
