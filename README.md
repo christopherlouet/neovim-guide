@@ -92,4 +92,4 @@ Les contributions sont les bienvenues ! N'hésitez pas à :
 
 ## Licence
 
-MIT
+Ce projet est sous licence [GPLv3](LICENSE).
