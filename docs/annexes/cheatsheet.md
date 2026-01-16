@@ -1,5 +1,6 @@
 ---
 title: Cheatsheet IntelliJ → Neovim
+sidebar_position: 1
 ---
 
 # Annexes — Références, muscle memory et checklists
