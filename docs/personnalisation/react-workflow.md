@@ -83,7 +83,7 @@ Tu comprends un composant sans parcourir tout le projet.
 
 Renommer une prop :
 ```bash
-\<leader\>rn
+<leader>rn
 ```
 
 Le LSP :
@@ -104,7 +104,7 @@ Cas classique :
 
 Solution :
 ```bash
-\<leader\>ca
+<leader>ca
 ```
 
 L’import est ajouté :
@@ -264,4 +264,13 @@ feat(user): display user role in UserCard
 - [ ] Je développe une feature complète
 - [ ] Mon workflow est fluide
 - [ ] Mes commits sont propres
-- [ ] Je garde le contexte jusqu’au bout
+- [ ] Je garde le contexte jusqu'au bout
+
+---
+
+## Pour aller plus loin
+
+- [Git dans Neovim](/docs/workflow/git) — Staging par hunk et commits propres
+- [Tests](/docs/workflow/testing) — Exécuter les tests avec Neotest
+- [Debug](/docs/workflow/debug) — Debugger les composants React
+- [Sessions](/docs/workflow/sessions) — Sauvegarder ton contexte de travail

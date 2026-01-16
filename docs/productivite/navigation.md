@@ -1,5 +1,6 @@
 ---
 title: Navigation sans souris
+sidebar_position: 1
 ---
 
 # Chapitre 3 — Navigation sans souris (devenir efficace rapidement)
@@ -85,7 +86,7 @@ Une fois compris, ce modèle devient plus fiable que celui des onglets.
 Commande principale :
 
 ```bash
-\<leader\>ff
+<leader>ff
 ```
 
 Cette commande :
@@ -112,7 +113,7 @@ Tu dois :
 Commande :
 
 ```bash
-\<leader\>fg
+<leader>fg
 ```
 
 Cette recherche :
@@ -143,13 +144,13 @@ C’est l’équivalent conceptuel de Ctrl+Tab, mais sans interface visuelle.
 Fermer un buffer :
 
 ```bash
-\<leader\>bd
+<leader>bd
 ```
 
 Fermer tous les autres :
 
 ```bash
-\<leader\>bo
+<leader>bo
 ```
 
 Fermer un buffer ne supprime jamais le fichier sur le disque.
@@ -161,7 +162,7 @@ Fermer un buffer ne supprime jamais le fichier sur le disque.
 Commande :
 
 ```bash
-\<leader\>e
+<leader>e
 ```
 
 L’explorateur sert à :
@@ -178,7 +179,7 @@ Il ne doit pas devenir ton outil principal de navigation.
 Commande :
 
 ```bash
-\<leader\>fw
+<leader>fw
 ```
 
 Elle permet de :
@@ -205,7 +206,7 @@ Ces commandes fonctionnent comme l’historique d’un navigateur.
 ## 3.10 — Exercice pratique
 
 - ouvre un projet réel
-- utilise uniquement \<leader\>ff pour ouvrir des fichiers
+- utilise uniquement <leader>ff pour ouvrir des fichiers
 - navigue avec ]b et [b
 - ferme des buffers inutilement
 - n’utilise pas la souris
@@ -215,6 +216,14 @@ Ces commandes fonctionnent comme l’historique d’un navigateur.
 ## 3.11 — Checklist de fin de chapitre
 
 - [ ] Je comprends fichiers / buffers / fenêtres
-- [ ] J’utilise \<leader\>ff automatiquement
-- [ ] Je n’ai plus besoin de l’arborescence
+- [ ] J'utilise `<leader>ff` automatiquement
+- [ ] Je n'ai plus besoin de l'arborescence
 - [ ] Ma navigation est plus fluide
+
+---
+
+## Pour aller plus loin
+
+- [Navigation avancée](/docs/outils/navigation-avancee) — Harpoon, Leap, Aerial et autres outils de navigation avancée
+- [Sessions et projets](/docs/workflow/sessions) — Sauvegarder et restaurer ton contexte de travail
+- [Which-key](/docs/productivite/which-key) — Découvrir tous les raccourcis de navigation
