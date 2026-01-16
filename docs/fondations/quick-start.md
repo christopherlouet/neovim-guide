@@ -15,35 +15,83 @@ Ce guide suppose que tu as installé **[neovim-intellij-ide](https://github.com/
 
 ## Installation rapide
 
-### 1. Cloner la configuration
+### 1. Cloner le dépôt
 
 ```bash
-git clone https://github.com/christopherlouet/neovim-intellij-ide ~/.config/nvim
+git clone https://github.com/christopherlouet/neovim-intellij-ide
+cd neovim-intellij-ide
 ```
 
-### 2. Lancer Neovim
+### 2. Lancer l'installation
 
 ```bash
-nvim
+chmod +x install.sh
+./install.sh
 ```
 
-Les plugins s'installent automatiquement au premier lancement.
+Le script installe automatiquement :
+- **Neovim ≥ 0.11** (via PPA, AppImage ou Homebrew selon ta plateforme)
+- Les dépendances système nécessaires
+- La configuration dans `~/.config/nvim`
+- Les plugins via **Lazy.nvim**
+- Les parsers **Treesitter**
 
-### 3. Attendre l'installation
-
-- **Lazy.nvim** installe les plugins
-- **Mason** installe les LSP et outils
-- Laisse le processus se terminer (~2-3 minutes)
-
-### 4. Redémarrer
-
-Quitte et relance Neovim :
+:::tip Options utiles
 ```bash
-:qa
+./install.sh --dry-run     # Voir ce qui sera fait sans rien installer
+./install.sh --verbose     # Mode verbeux pour le debug
+./install.sh --help        # Toutes les options
+```
+:::
+
+### 3. Vérifier l'installation
+
+```bash
+./healthcheck.sh
+```
+
+Ce script vérifie que tout est correctement configuré.
+
+### 4. Lancer Neovim
+
+```bash
 nvim
 ```
 
 Tu es prêt.
+
+:::info Plateformes supportées
+- **Ubuntu** / **Debian** — Installation complète testée
+- **Fedora** — Installation complète testée
+- **macOS** — Via Homebrew
+- **Windows** — Via WSL2 + Ubuntu
+
+Voir la [documentation complète](https://github.com/christopherlouet/neovim-intellij-ide#-plateformes-supportées) pour les détails.
+:::
+
+---
+
+## Choisir un profil (optionnel)
+
+La configuration propose plusieurs **profils** adaptés à différents usages :
+
+| Profil | Description | Cas d'usage |
+|--------|-------------|-------------|
+| `full` | Configuration complète (défaut) | Tout inclus |
+| `minimal` | Core IDE (LSP, completion) | Édition rapide, SSH |
+| `javascript` | Minimal + JS/TS tooling | Développement frontend |
+| `devops` | Minimal + K8s, Terraform, Docker | Platform engineering |
+
+Pour changer de profil, ajoute dans ton `init.lua` :
+
+```lua
+vim.g.nvim_profile = "devops"  -- ou "minimal", "javascript", "full"
+```
+
+:::tip
+Le profil `full` est le défaut. Tu peux changer plus tard selon tes besoins.
+Voir [Profils](/personnalisation/profils) pour les détails.
+:::
 
 ---
 
