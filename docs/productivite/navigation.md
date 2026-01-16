@@ -206,7 +206,7 @@ Ces commandes fonctionnent comme l’historique d’un navigateur.
 ## 3.10 — Exercice pratique
 
 - ouvre un projet réel
-- utilise uniquement <leader>ff pour ouvrir des fichiers
+- utilise uniquement `<leader>ff` pour ouvrir des fichiers
 - navigue avec ]b et [b
 - ferme des buffers inutilement
 - n’utilise pas la souris
@@ -224,6 +224,6 @@ Ces commandes fonctionnent comme l’historique d’un navigateur.
 
 ## Pour aller plus loin
 
-- [Navigation avancée](/docs/outils/navigation-avancee) — Harpoon, Leap, Aerial et autres outils de navigation avancée
-- [Sessions et projets](/docs/workflow/sessions) — Sauvegarder et restaurer ton contexte de travail
-- [Which-key](/docs/productivite/which-key) — Découvrir tous les raccourcis de navigation
+- [Navigation avancée](/outils/navigation-avancee) — Harpoon, Leap, Aerial et autres outils de navigation avancée
+- [Sessions et projets](/workflow/sessions) — Sauvegarder et restaurer ton contexte de travail
+- [Which-key](/productivite/which-key) — Découvrir tous les raccourcis de navigation

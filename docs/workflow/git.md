@@ -109,6 +109,6 @@ Tout se fait sans quitter le clavier.
 
 ## Pour aller plus loin
 
-- [GitHub Integration](/docs/outils/github) — Octo.nvim pour les PR et issues
-- [Sessions](/docs/workflow/sessions) — Sessions par branche Git
-- [Terminal](/docs/workflow/terminal) — Commandes Git dans le terminal intégré
+- [GitHub Integration](/outils/github) — Octo.nvim pour les PR et issues
+- [Sessions](/workflow/sessions) — Sessions par branche Git
+- [Terminal](/workflow/terminal) — Commandes Git dans le terminal intégré

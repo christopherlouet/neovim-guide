@@ -19,12 +19,12 @@ Ce guide est conçu pour la configuration **[neovim-intellij-ide](https://github
 
 | Je veux... | Aller à |
 |------------|---------|
-| **Démarrer en 5 minutes** | [Quick Start](/docs/fondations/quick-start) |
-| **Comprendre les modes Vim** | [Mental Model](/docs/fondations/mental-model) |
-| **Naviguer dans un projet** | [Navigation](/docs/productivite/navigation) |
-| **Chercher des fichiers/texte** | [Telescope](/docs/ecosysteme/telescope) |
-| **Voir tous les raccourcis** | [Cheatsheet](/docs/annexes/cheatsheet) |
-| **Comprendre un terme** | [Glossaire](/docs/annexes/glossaire) |
+| **Démarrer en 5 minutes** | [Quick Start](/fondations/quick-start) |
+| **Comprendre les modes Vim** | [Mental Model](/fondations/mental-model) |
+| **Naviguer dans un projet** | [Navigation](/productivite/navigation) |
+| **Chercher des fichiers/texte** | [Telescope](/ecosysteme/telescope) |
+| **Voir tous les raccourcis** | [Cheatsheet](/annexes/cheatsheet) |
+| **Comprendre un terme** | [Glossaire](/annexes/glossaire) |
 
 ---
 

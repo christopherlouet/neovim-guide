@@ -146,8 +146,8 @@ Mason permet :
 
 - ouvre un fichier TypeScript
 - utilise gd et gr
-- renomme une variable avec <leader>rn
-- corrige une erreur avec <leader>ca
+- renomme une variable avec `<leader>rn`
+- corrige une erreur avec `<leader>ca`
 
 ---
 
@@ -162,7 +162,7 @@ Mason permet :
 
 ## Pour aller plus loin
 
-- [Autocomplétion](/docs/productivite/completion) — nvim-cmp utilise le LSP pour la complétion intelligente
-- [Diagnostics](/docs/workflow/diagnostics) — Naviguer et résoudre les erreurs
-- [Qualité de code](/docs/ecosysteme/qualite) — Formatage et linting
-- [Troubleshooting](/docs/workflow/troubleshooting) — Résoudre les problèmes LSP
+- [Autocomplétion](/productivite/completion) — nvim-cmp utilise le LSP pour la complétion intelligente
+- [Diagnostics](/workflow/diagnostics) — Naviguer et résoudre les erreurs
+- [Qualité de code](/ecosysteme/qualite) — Formatage et linting
+- [Troubleshooting](/workflow/troubleshooting) — Résoudre les problèmes LSP

@@ -206,11 +206,11 @@ Tu n'as pas besoin de tout mémoriser. **Which-key** t'aide.
 
 Tu as les bases. Voici l'ordre recommandé pour approfondir :
 
-1. **[Mental model Vim](/docs/fondations/mental-model)** — Comprendre la philosophie
-2. **[Navigation](/docs/productivite/navigation)** — Maîtriser les déplacements
-3. **[Telescope](/docs/ecosysteme/telescope)** — Le fuzzy finder en détail
-4. **[LSP](/docs/ecosysteme/lsp)** — L'intelligence du code
-5. **[Git](/docs/workflow/git)** — Workflow Git intégré
+1. **[Mental model Vim](/fondations/mental-model)** — Comprendre la philosophie
+2. **[Navigation](/productivite/navigation)** — Maîtriser les déplacements
+3. **[Telescope](/ecosysteme/telescope)** — Le fuzzy finder en détail
+4. **[LSP](/ecosysteme/lsp)** — L'intelligence du code
+5. **[Git](/workflow/git)** — Workflow Git intégré
 
 ---
 

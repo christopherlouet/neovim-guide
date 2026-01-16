@@ -300,7 +300,7 @@ Copier du texte dans Neovim. Équivalent de "copier" mais avec la terminologie V
 
 ## Voir aussi
 
-- [Quick Start](/docs/fondations/quick-start) — Les bases pour démarrer
-- [Cheatsheet](/docs/annexes/cheatsheet) — Tous les raccourcis
-- [Troubleshooting](/docs/workflow/troubleshooting) — Résoudre les problèmes
+- [Quick Start](/fondations/quick-start) — Les bases pour démarrer
+- [Cheatsheet](/annexes/cheatsheet) — Tous les raccourcis
+- [Troubleshooting](/workflow/troubleshooting) — Résoudre les problèmes
 

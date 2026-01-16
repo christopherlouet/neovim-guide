@@ -428,7 +428,7 @@ Solutions :
 
 ## Pour aller plus loin
 
-- [Édition efficace](/docs/productivite/edition) — Text-objects Vim de base
-- [LSP](/docs/ecosysteme/lsp) — Treesitter complète le LSP
-- [Navigation avancée](/docs/outils/navigation-avancee) — Aerial utilise Treesitter
+- [Édition efficace](/productivite/edition) — Text-objects Vim de base
+- [LSP](/ecosysteme/lsp) — Treesitter complète le LSP
+- [Navigation avancée](/outils/navigation-avancee) — Aerial utilise Treesitter
 

@@ -111,8 +111,8 @@ Toujours préférer cela à une recherche texte.
 ## 6.6 — Exercice pratique
 
 - introduis une violation ESLint
-- corrige-la avec <leader>ca
-- renomme une variable avec <leader>rn
+- corrige-la avec `<leader>ca`
+- renomme une variable avec `<leader>rn`
 - sauvegarde et observe le formatage
 
 ---
@@ -128,6 +128,6 @@ Toujours préférer cela à une recherche texte.
 
 ## Pour aller plus loin
 
-- [LSP](/docs/ecosysteme/lsp) — Comprendre le serveur de langage
-- [Diagnostics](/docs/workflow/diagnostics) — Naviguer et corriger les erreurs
-- [Tests](/docs/workflow/testing) — Vérifier que le refactoring n'a rien cassé
+- [LSP](/ecosysteme/lsp) — Comprendre le serveur de langage
+- [Diagnostics](/workflow/diagnostics) — Naviguer et corriger les erreurs
+- [Tests](/workflow/testing) — Vérifier que le refactoring n'a rien cassé

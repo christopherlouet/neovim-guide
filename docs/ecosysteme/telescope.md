@@ -407,7 +407,7 @@ Si le projet est énorme (100k+ fichiers) :
 
 ## Pour aller plus loin
 
-- [Navigation sans souris](/docs/productivite/navigation) — Concepts de fichiers, buffers et fenêtres
-- [LSP](/docs/ecosysteme/lsp) — Intégration Telescope + LSP
-- [Git dans Neovim](/docs/workflow/git) — Utiliser Telescope pour Git
+- [Navigation sans souris](/productivite/navigation) — Concepts de fichiers, buffers et fenêtres
+- [LSP](/ecosysteme/lsp) — Intégration Telescope + LSP
+- [Git dans Neovim](/workflow/git) — Utiliser Telescope pour Git
 

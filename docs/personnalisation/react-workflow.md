@@ -270,7 +270,7 @@ feat(user): display user role in UserCard
 
 ## Pour aller plus loin
 
-- [Git dans Neovim](/docs/workflow/git) — Staging par hunk et commits propres
-- [Tests](/docs/workflow/testing) — Exécuter les tests avec Neotest
-- [Debug](/docs/workflow/debug) — Debugger les composants React
-- [Sessions](/docs/workflow/sessions) — Sauvegarder ton contexte de travail
+- [Git dans Neovim](/workflow/git) — Staging par hunk et commits propres
+- [Tests](/workflow/testing) — Exécuter les tests avec Neotest
+- [Debug](/workflow/debug) — Debugger les composants React
+- [Sessions](/workflow/sessions) — Sauvegarder ton contexte de travail

@@ -114,7 +114,7 @@ Règle d'or :
 Tu n'as pas besoin de tout mémoriser.
 
 :::info En savoir plus
-Pour une documentation complète sur Which-key, consulte le chapitre dédié : [Which-key](/docs/productivite/which-key).
+Pour une documentation complète sur Which-key, consulte le chapitre dédié : [Which-key](/productivite/which-key).
 :::
 
 ---

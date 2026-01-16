@@ -135,6 +135,6 @@ Tu peux expérimenter sans crainte.
 
 ## Pour aller plus loin
 
-- [Autocomplétion](/docs/productivite/completion) — Complétion intelligente avec nvim-cmp
-- [Which-key](/docs/productivite/which-key) — Découvrir les raccourcis interactivement
-- [Navigation](/docs/productivite/navigation) — Se déplacer efficacement dans un projet
+- [Autocomplétion](/productivite/completion) — Complétion intelligente avec nvim-cmp
+- [Which-key](/productivite/which-key) — Découvrir les raccourcis interactivement
+- [Navigation](/productivite/navigation) — Se déplacer efficacement dans un projet

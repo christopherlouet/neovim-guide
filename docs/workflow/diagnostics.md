@@ -107,7 +107,7 @@ Une seule erreur peut en masquer dix autres.
 
 ## Pour aller plus loin
 
-- [LSP](/docs/ecosysteme/lsp) — Comprendre d'où viennent les diagnostics
-- [Debug](/docs/workflow/debug) — Utiliser le debugger pour les bugs complexes
-- [Tests](/docs/workflow/testing) — Exécuter les tests pour valider les corrections
-- [Troubleshooting](/docs/workflow/troubleshooting) — Résoudre les problèmes de configuration
+- [LSP](/ecosysteme/lsp) — Comprendre d'où viennent les diagnostics
+- [Debug](/workflow/debug) — Utiliser le debugger pour les bugs complexes
+- [Tests](/workflow/testing) — Exécuter les tests pour valider les corrections
+- [Troubleshooting](/workflow/troubleshooting) — Résoudre les problèmes de configuration
