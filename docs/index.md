@@ -6,8 +6,14 @@ slug: /
 # Neovim comme IDE
 ## Guide complet de migration depuis IntelliJ
 
-Temps recommandé : 1 heure par jour  
+Temps recommandé : 1 heure par jour
 Public : développeur utilisant déjà Vim, débutant Neovim IDE
+
+:::info Configuration utilisée
+Ce guide est conçu pour accompagner la configuration **[neovim-intellij-ide](https://github.com/christopherlouet/neovim-intellij-ide)**, une configuration Neovim prête à l'emploi optimisée pour les développeurs venant d'IntelliJ.
+
+Tous les raccourcis et fonctionnalités documentés correspondent à cette configuration.
+:::
 
 ---
 

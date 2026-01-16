@@ -85,13 +85,13 @@ K
 Renommer :
 
 ```bash
-\<leader\>rn
+<leader>rn
 ```
 
 Code actions :
 
 ```bash
-\<leader\>ca
+<leader>ca
 ```
 
 ---
@@ -120,7 +120,7 @@ Naviguer :
 Liste globale :
 
 ```bash
-\<leader\>xx
+<leader>xx
 ```
 
 ---
@@ -145,14 +145,23 @@ Mason permet :
 
 - ouvre un fichier TypeScript
 - utilise gd et gr
-- renomme une variable avec \<leader\>rn
-- corrige une erreur avec \<leader\>ca
+- renomme une variable avec <leader>rn
+- corrige une erreur avec <leader>ca
 
 ---
 
 ## 5.9 — Checklist de fin de chapitre
 
-- [ ] J’utilise gd et gr
+- [ ] J'utilise gd et gr
 - [ ] Je fais confiance au rename
 - [ ] Je lis les diagnostics calmement
 - [ ] Je comprends le rôle du LSP
+
+---
+
+## Pour aller plus loin
+
+- [Autocomplétion](/docs/productivite/completion) — nvim-cmp utilise le LSP pour la complétion intelligente
+- [Diagnostics](/docs/workflow/diagnostics) — Naviguer et résoudre les erreurs
+- [Qualité de code](/docs/ecosysteme/qualite) — Formatage et linting
+- [Troubleshooting](/docs/workflow/troubleshooting) — Résoudre les problèmes LSP

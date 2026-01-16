@@ -60,7 +60,7 @@ Diagnostic précédent :
 
 Vue globale des diagnostics :
 ```bash
-\<leader\>xx
+<leader>xx
 ```
 
 ---
@@ -102,3 +102,12 @@ Une seule erreur peut en masquer dix autres.
 - [ ] Je ne panique plus
 - [ ] Je corrige méthodiquement
 - [ ] Je fais confiance aux diagnostics
+
+---
+
+## Pour aller plus loin
+
+- [LSP](/docs/ecosysteme/lsp) — Comprendre d'où viennent les diagnostics
+- [Debug](/docs/workflow/debug) — Utiliser le debugger pour les bugs complexes
+- [Tests](/docs/workflow/testing) — Exécuter les tests pour valider les corrections
+- [Troubleshooting](/docs/workflow/troubleshooting) — Résoudre les problèmes de configuration

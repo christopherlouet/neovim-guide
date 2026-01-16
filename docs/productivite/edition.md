@@ -1,5 +1,6 @@
 ---
 title: Édition efficace
+sidebar_position: 2
 ---
 
 # Chapitre 4 — Édition efficace (écrire moins, faire plus)
@@ -125,7 +126,15 @@ Tu peux expérimenter sans crainte.
 
 ## 4.8 — Checklist de fin de chapitre
 
-- [ ] J’utilise dd, yyp, gcc naturellement
+- [ ] J'utilise dd, yyp, gcc naturellement
 - [ ] Je reviens toujours en mode Normal
 - [ ] Je sélectionne moins
 - [ ] Mon édition est plus précise
+
+---
+
+## Pour aller plus loin
+
+- [Autocomplétion](/docs/productivite/completion) — Complétion intelligente avec nvim-cmp
+- [Which-key](/docs/productivite/which-key) — Découvrir les raccourcis interactivement
+- [Navigation](/docs/productivite/navigation) — Se déplacer efficacement dans un projet

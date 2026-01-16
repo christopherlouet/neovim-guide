@@ -43,10 +43,10 @@ Navigation entre les changements :
 Actions sur les changements :
 
 ```bash
-\<leader\>hs    stage hunk
-\<leader\>hr    reset hunk
-\<leader\>hp    preview hunk
-\<leader\>hb    blame ligne
+<leader>hs    stage hunk
+<leader>hr    reset hunk
+<leader>hp    preview hunk
+<leader>hb    blame ligne
 ```
 
 ---
@@ -70,7 +70,7 @@ Un historique propre est un outil de communication.
 Ouvrir Neogit :
 
 ```bash
-\<leader\>gg
+<leader>gg
 ```
 
 Dans Neogit :
@@ -104,3 +104,11 @@ Tout se fait sans quitter le clavier.
 - [ ] Mes commits sont lisibles
 - [ ] Je ne quitte plus Neovim pour Git
 - [ ] Je comprends ce que je versionne
+
+---
+
+## Pour aller plus loin
+
+- [GitHub Integration](/docs/outils/github) — Octo.nvim pour les PR et issues
+- [Sessions](/docs/workflow/sessions) — Sessions par branche Git
+- [Terminal](/docs/workflow/terminal) — Commandes Git dans le terminal intégré

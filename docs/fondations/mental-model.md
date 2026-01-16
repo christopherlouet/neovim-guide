@@ -106,11 +106,15 @@ Puis :
 
 ## 2.8 — Which-key comme filet de sécurité
 
-Règle d’or :
+Règle d'or :
 
-> si tu hésites → `\<leader\>` → observe
+> si tu hésites → `<leader>` → observe
 
-Tu n’as pas besoin de tout mémoriser.
+Tu n'as pas besoin de tout mémoriser.
+
+:::info En savoir plus
+Pour une documentation complète sur Which-key, consulte le chapitre dédié : [Which-key](/docs/productivite/which-key).
+:::
 
 ---
 
@@ -118,7 +122,7 @@ Tu n’as pas besoin de tout mémoriser.
 
 - ouvre un fichier
 - reste en mode Normal
-- appuie sur `\<leader\>`
+- appuie sur `<leader>`
 - observe
 - `Esc`
 - répète

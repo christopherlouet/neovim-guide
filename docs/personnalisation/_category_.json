@@ -1,0 +1,8 @@
+{
+  "label": "6. Personnalisation",
+  "position": 7,
+  "link": {
+    "type": "generated-index",
+    "description": "Configuration, customisation et autonomie pour adapter Neovim à vos besoins."
+  }
+}
