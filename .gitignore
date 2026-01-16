@@ -37,3 +37,10 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Claude Code (tout masquer)
+.claude/
+CLAUDE.md
+CLAUDE.local.md
+CLAUDE.local.md.example
+.mcp.json
