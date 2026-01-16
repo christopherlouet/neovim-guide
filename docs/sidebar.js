@@ -68,6 +68,7 @@ module.exports = {
             type: "category",
             label: "Personnalisation",
             items: [
+                "personnalisation/profils",
                 "personnalisation/config",
                 "personnalisation/customisation",
                 "personnalisation/react-workflow",
