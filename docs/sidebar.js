@@ -12,6 +12,7 @@ module.exports = {
             items: [
                 "fondations/quick-start",
                 "fondations/mental-model",
+                "fondations/migration-intellij",
             ],
         },
 
@@ -70,6 +71,7 @@ module.exports = {
             items: [
                 "personnalisation/profils",
                 "personnalisation/config",
+                "personnalisation/config-projet",
                 "personnalisation/customisation",
                 "personnalisation/react-workflow",
                 "personnalisation/autonomie",
