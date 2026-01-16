@@ -7,6 +7,13 @@ sidebar_position: 3
 
 `vim-dadbod-ui` transforme Neovim en client de base de données complet, similaire à DataGrip ou DBeaver.
 
+:::tip Plugins utilisés
+Cette section couvre les plugins suivants de [neovim-intellij-ide](https://github.com/christopherlouet/neovim-intellij-ide) :
+- **[vim-dadbod](https://github.com/tpope/vim-dadbod)** — Interface base de données par Tim Pope
+- **[vim-dadbod-ui](https://github.com/kristijanhusak/vim-dadbod-ui)** — UI graphique pour vim-dadbod
+- **[vim-dadbod-completion](https://github.com/kristijanhusak/vim-dadbod-completion)** — Autocomplétion SQL
+:::
+
 ---
 
 ## Concept

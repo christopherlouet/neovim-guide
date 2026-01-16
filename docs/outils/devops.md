@@ -7,6 +7,17 @@ sidebar_position: 2
 
 Neovim peut devenir un outil central pour le travail DevOps grâce à des plugins dédiés pour Kubernetes, Terraform, Ansible, Docker et plus.
 
+:::tip Plugins utilisés
+Cette section couvre les plugins suivants de [neovim-intellij-ide](https://github.com/christopherlouet/neovim-intellij-ide) :
+- **[kubectl.nvim](https://github.com/ramilito/kubectl.nvim)** — Interface Kubernetes intégrée
+- **[telescope-docker.nvim](https://github.com/krisajenkins/telescope-docker.nvim)** — Exploration Docker via Telescope
+- **[vim-terraform](https://github.com/hashivim/vim-terraform)** — Support Terraform avec formatage auto
+- **[ansible-vim](https://github.com/pearofducks/ansible-vim)** — Syntax highlighting Ansible
+- **[vim-helm](https://github.com/towolf/vim-helm)** — Support Helm charts
+- **[yaml.nvim](https://github.com/cuducos/yaml.nvim)** — YAML avec validation par schémas
+- **[vim-systemd-syntax](https://github.com/wgwoods/vim-systemd-syntax)** — Syntax systemd
+:::
+
 ---
 
 ## Kubernetes avec kubectl.nvim

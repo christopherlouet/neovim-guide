@@ -7,6 +7,16 @@ sidebar_position: 5
 
 Neovim peut s'intégrer directement avec GitHub pour gérer les Pull Requests, Issues, et rechercher dans l'historique Git.
 
+:::tip Plugins utilisés
+Cette section couvre les plugins suivants de [neovim-intellij-ide](https://github.com/christopherlouet/neovim-intellij-ide) :
+- **[octo.nvim](https://github.com/pwntester/octo.nvim)** — GitHub PRs et Issues dans Neovim
+- **[advanced-git-search.nvim](https://github.com/aaronhallaert/advanced-git-search.nvim)** — Recherche avancée dans l'historique Git
+- **[diffview.nvim](https://github.com/sindrets/diffview.nvim)** — Interface diff améliorée
+- **[vim-fugitive](https://github.com/tpope/vim-fugitive)** — Commandes Git intégrées par Tim Pope
+- **[gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)** — Indicateurs Git dans la gouttière
+- **[neogit](https://github.com/NeogitOrg/neogit)** — Interface Git type Magit
+:::
+
 ---
 
 ## Octo.nvim — GitHub dans Neovim

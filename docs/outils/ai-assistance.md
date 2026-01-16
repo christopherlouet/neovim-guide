@@ -5,7 +5,12 @@ sidebar_position: 6
 
 # AI Assistance
 
-Le projet neovim-intellij-ide intègre Claude Code directement dans Neovim pour l'assistance IA pendant le développement.
+Le projet [neovim-intellij-ide](https://github.com/christopherlouet/neovim-intellij-ide) intègre Claude Code directement dans Neovim pour l'assistance IA pendant le développement.
+
+:::tip Plugin utilisé
+Cette section couvre le plugin suivant de [neovim-intellij-ide](https://github.com/christopherlouet/neovim-intellij-ide) :
+- **[claude-code.nvim](https://github.com/greggh/claude-code.nvim)** — Interface Claude Code intégrée
+:::
 
 ---
 

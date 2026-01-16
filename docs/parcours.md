@@ -7,6 +7,17 @@ sidebar_position: 2
 
 Ce guide peut être lu de plusieurs façons selon ton niveau et tes besoins.
 
+:::info Configuration de référence
+Ce parcours est conçu pour la configuration **[neovim-intellij-ide](https://github.com/christopherlouet/neovim-intellij-ide)**.
+
+Pour commencer :
+```bash
+git clone https://github.com/christopherlouet/neovim-intellij-ide
+cd neovim-intellij-ide
+./install.sh
+```
+:::
+
 ---
 
 ## Débutant — Les fondations
@@ -38,7 +49,7 @@ Ce guide peut être lu de plusieurs façons selon ton niveau et tes besoins.
 
 ## Avancé — Outils professionnels
 
-**Objectif** : Exploiter tout le potentiel de la configuration neovim-intellij-ide.
+**Objectif** : Exploiter tout le potentiel de la configuration [neovim-intellij-ide](https://github.com/christopherlouet/neovim-intellij-ide).
 
 1. **Navigation avancée** — Harpoon, Leap, Aerial, Marks
 2. **DevOps** — Kubernetes, Terraform, Ansible, Docker

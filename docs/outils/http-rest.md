@@ -7,6 +7,11 @@ sidebar_position: 4
 
 `rest.nvim` permet de tester des APIs REST directement depuis Neovim, comme Postman ou le client HTTP d'IntelliJ.
 
+:::tip Plugin utilisé
+Cette section couvre le plugin suivant de [neovim-intellij-ide](https://github.com/christopherlouet/neovim-intellij-ide) :
+- **[rest.nvim](https://github.com/rest-nvim/rest.nvim)** — Client HTTP/REST intégré
+:::
+
 ---
 
 ## Concept

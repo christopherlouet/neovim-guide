@@ -7,6 +7,18 @@ sidebar_position: 1
 
 Au-delà de la navigation de base, Neovim offre des outils puissants pour se déplacer instantanément dans le code.
 
+:::tip Plugins utilisés
+Cette section couvre les plugins suivants de [neovim-intellij-ide](https://github.com/christopherlouet/neovim-intellij-ide) :
+- **[harpoon](https://github.com/ThePrimeagen/harpoon)** (v2) — Navigation rapide entre fichiers favoris
+- **[leap.nvim](https://github.com/ggandor/leap.nvim)** — Mouvement instantané dans le buffer
+- **[aerial.nvim](https://github.com/stevearc/aerial.nvim)** — Vue structure/outline
+- **[marks.nvim](https://github.com/chentoast/marks.nvim)** — Marques visuelles améliorées
+- **[todo-comments.nvim](https://github.com/folke/todo-comments.nvim)** — Highlight et navigation TODO
+- **[trouble.nvim](https://github.com/folke/trouble.nvim)** — Liste de diagnostics améliorée
+- **[project.nvim](https://github.com/ahmedkhalf/project.nvim)** — Gestion des projets
+- **[auto-session](https://github.com/rmagatti/auto-session)** — Persistence des sessions
+:::
+
 ---
 
 ## Harpoon — Fichiers favoris
