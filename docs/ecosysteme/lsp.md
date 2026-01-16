@@ -1,5 +1,6 @@
 ---
 title: LSP
+sidebar_position: 3
 ---
 
 # Chapitre 5 — LSP : le cerveau de ton IDE

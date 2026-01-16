@@ -1,5 +1,6 @@
 ---
 title: Qualité de code
+sidebar_position: 4
 ---
 
 # Chapitre 6 — Qualité de code & refactor (sans douleur)
